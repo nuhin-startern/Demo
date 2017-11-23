@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id="@+id/order_break_down_job_code"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/order_break_down_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            app:srcCompat="@drawable/ic_access_time_grey_24px" />
+
+        <TextView
+            android:id="@+id/job_price_break_down_job_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="D-024245-1203-0046355"
+            android:textColor="@color/textColorBlack"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/job_total_price"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:gravity="center_vertical|right"
+            android:paddingRight="16dp"
+            android:text="Service Fee"
+            android:textColor="@color/textColorBlack"
+            android:textSize="@dimen/normal_14sp_text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/job_details_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#a7dfdfdf"
+        android:paddingLeft="34dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/job_price_break_down_service_service_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Ac Servicing"
+            android:textColor="@color/textColorBlack"
+            android:paddingLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:layout_weight="0.09" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/job_price_break_down_service_fees"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="Service Fee"
+                    android:textColor="@color/textColorBlack"
+                    android:textSize="@dimen/normal_14sp_text_size" />
+
+                <TextView
+                    android:id="@+id/job_price_break_down_material_cost"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:textSize="@dimen/normal_14sp_text_size"
+                    android:text="Material Cost"
+                    android:textColor="@color/textColorBlack"
+                    android:paddingLeft="20dp"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/job_price_break_down_discount"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:textSize="@dimen/normal_14sp_text_size"
+                    android:text="Discount"
+                    android:textColor="@color/textColorBlack"
+                    android:paddingLeft="20dp"
+                    android:gravity="center_vertical" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="16dp">
+
+                <TextView
+                    android:id="@+id/job_price_break_down_service_fees_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:textSize="@dimen/normal_14sp_text_size"
+                    android:text="Service Fee"
+                    android:textColor="@color/textColorBlack"
+                    android:paddingLeft="20dp"
+                    android:gravity="center_vertical|right" />
+
+                <TextView
+                    android:id="@+id/job_price_break_down_material_cost_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:textSize="@dimen/normal_14sp_text_size"
+                    android:text="Service Fee"
+                    android:textColor="@color/textColorBlack"
+                    android:paddingLeft="20dp"
+                    android:gravity="center_vertical|right" />
+
+                <TextView
+                    android:id="@+id/job_price_break_down_discount_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:textSize="@dimen/normal_14sp_text_size"
+                    android:text="Service Fee"
+                    android:textColor="@color/textColorBlack"
+                    android:paddingLeft="20dp"
+                    android:gravity="center_vertical|right" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#F0F0F0"
+            android:layout_alignParentBottom="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/job_price_break_down_total_cost"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:textSize="@dimen/normal_14sp_text_size"
+                    android:text="Total Cost"
+                    android:textColor="@color/textColorBlack"
+                    android:paddingLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="0.10" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="16dp">
+
+                <TextView
+                    android:id="@+id/job_price_break_down_service_total_cost_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:textSize="@dimen/normal_14sp_text_size"
+                    android:text="Service Fee"
+                    android:textColor="@color/textColorBlack"
+                    android:paddingLeft="20dp"
+                    android:gravity="center_vertical|right"
+                    android:layout_weight="0.10" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDDDDD"
+        android:layout_alignParentBottom="true" />
+</LinearLayout>

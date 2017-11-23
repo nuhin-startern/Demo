@@ -1,0 +1,42 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- margin 16dp -->
+    <dimen name="layout_margin_top">16dp</dimen>
+    <dimen name="layout_margin_bottom">16dp</dimen>
+    <dimen name="layout_margin_left">16dp</dimen>
+    <dimen name="layout_margin_right">16dp</dimen>
+    <!-- margin 16dp -->
+
+    <dimen name="text_margin_difference">8dp</dimen>
+
+    <dimen name="resource_details_padding">5dp</dimen>
+
+    <!-- text size -->
+    <dimen name="normal_12sp_text_size">12sp</dimen>
+    <dimen name="normal_14sp_text_size">14sp</dimen>
+    <dimen name="normal_16sp_text_size">16sp</dimen>
+    <dimen name="normal_18sp_text_size">18sp</dimen>
+
+    <dimen name="semi_big_20sp_text_size">20sp</dimen>
+    <dimen name="semi_big_24sp_text_size">24sp</dimen>
+
+    <dimen name="big_30sp_text_size">30sp</dimen>
+    <!-- text size -->
+
+    <!-- image size -->
+    <dimen name="new_order_image_height_weight">20dp</dimen>
+    <dimen name="on_going_jobs_image_height_weight">40dp</dimen>
+    <dimen name="resource_details_image_height_weight">25dp</dimen>
+    <dimen name="resource_image_height_weight">100dp</dimen>
+    <dimen name="order_details_call_image_height_weight">35dp</dimen>
+    <!-- image size -->
+
+    <dimen name="scrolling_button_text_height">72dp</dimen>
+    <dimen name="scrolling_button_text_size">24sp</dimen>
+
+    <dimen name="standard_material_padding">16dp</dimen>
+    <dimen name="standard_text_size">16sp</dimen>
+</resources>

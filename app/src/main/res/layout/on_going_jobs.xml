@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/layout_margin_left"
+    android:layout_marginRight="@dimen/layout_margin_right"
+    android:layout_marginBottom="@dimen/layout_margin_bottom"
+    android:layout_marginTop="@dimen/layout_margin_top"
+    android:elevation="2dp">
+
+    <View
+        android:id="@+id/viewNewOrdersLayoutUper"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#55c71b"
+        android:layout_alignParentBottom="true" />
+
+    <LinearLayout
+        android:id="@+id/txtNewOrdersServiceLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/layout_margin_top"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/txtOnGoingOrdersStatus"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/layout_margin_left"
+                    android:layout_marginBottom="@dimen/layout_margin_bottom"
+                    android:background="@drawable/new_order_price_color"
+                    android:gravity="center"
+                    android:text="Served"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/normal_12sp_text_size" />
+
+                <TextView
+                    android:id="@+id/txtNewOrdersServiceName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/layout_margin_left"
+                    android:text="D - 123456789987456321 "
+                    android:textSize="@dimen/normal_18sp_text_size"
+                    android:textColor="@color/textColorBlack"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/layout_margin_top"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/new_order_image_height_weight"
+                        android:layout_height="@dimen/new_order_image_height_weight"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/ic_settings_grey_24px"
+                        android:layout_marginLeft="@dimen/layout_margin_left" />
+
+                    <TextView
+                        android:id="@+id/txtNewOrdersCustomerLocation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center"
+                        android:paddingLeft="@dimen/text_margin_difference"
+                        android:text="AC ServicingServicing"
+                        android:textSize="@dimen/normal_14sp_text_size" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/text_margin_difference">
+
+                    <ImageView
+                        android:layout_width="@dimen/new_order_image_height_weight"
+                        android:layout_height="@dimen/new_order_image_height_weight"
+                        android:gravity="center_vertical"
+                        app:srcCompat="@drawable/ic_supervisor_account_grey_24px"
+                        android:layout_marginLeft="@dimen/layout_margin_left"
+                        />
+                    <TextView
+                        android:id="@+id/txtNewOrdersScheduleDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/text_margin_difference"
+                        android:text="Mr. Jhon"
+                        android:textSize="@dimen/normal_14sp_text_size" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/text_margin_difference">
+
+                    <ImageView
+                        android:layout_width="@dimen/new_order_image_height_weight"
+                        android:layout_height="@dimen/new_order_image_height_weight"
+                        android:gravity="center_vertical"
+                        app:srcCompat="@drawable/ic_location_on_grey_24px"
+                        android:layout_marginLeft="@dimen/layout_margin_left"
+                        />
+                    <TextView
+                        android:id="@+id/txtNewOrdersPreferTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/text_margin_difference"
+                        android:text="Mohammadpur"
+                        android:textSize="@dimen/normal_14sp_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/text_margin_difference">
+
+                    <ImageView
+                        android:layout_width="@dimen/new_order_image_height_weight"
+                        android:layout_height="@dimen/new_order_image_height_weight"
+                        android:gravity="center_vertical"
+                        app:srcCompat="@drawable/ic_access_time_grey_24px"
+                        android:layout_marginLeft="@dimen/layout_margin_left"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/text_margin_difference"
+                        android:text="10.00 A.M - 1.00 P.M."
+                        android:textSize="@dimen/normal_14sp_text_size" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/layout_margin_right"
+                android:gravity="right"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imgResourceProfilePic"
+                    android:layout_width="@dimen/on_going_jobs_image_height_weight"
+                    android:layout_height="@dimen/on_going_jobs_image_height_weight"
+                    android:src="@drawable/john"
+                    android:layout_marginTop="@dimen/layout_margin_top" />
+
+                <TextView
+                    android:id="@+id/txtNewOrdersPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="CALL"
+                    android:textColor="@color/titleTextColor"
+                    android:layout_marginTop="@dimen/text_margin_difference"
+                    android:drawableLeft="@drawable/ic_phone_black_24dp"
+                    android:textSize="@dimen/normal_14sp_text_size" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/txtNewOrdersButtonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_marginTop="@dimen/layout_margin_top">
+
+            <Button
+                android:id="@+id/txtNewOrdersAcceptButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="RESCEDULE"
+                android:background = "#10ffffff"
+                android:textColor="@color/colorPrimary"
+                />
+
+            <Button
+                android:id="@+id/txtNewOrdersRejecttButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="CHANGE"
+                android:background="#10ffffff"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

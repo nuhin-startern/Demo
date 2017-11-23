@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+
+    <color name="textColorBlack">#212121</color>
+    <color name="titleTextColor">#212121</color>
+    <color name="greenBackGround">#01ed09</color>
+    <color name="viewLine">#e8d4d4d4</color>
+
+    <color name="partnerTolbar">#2b8cdf</color>
+    <color name="workingHour">#2b8cdf</color>
+
+    <color name="onGoingJobAccepted">#23a7f1</color>
+    <color name="onGoingJobDue">#ff7b6c</color>
+    <color name="onGoingJobProcess">#37dbd0</color>
+    <color name="onGoingJobServer">#3ddc80</color>
+
+
+
+</resources>
